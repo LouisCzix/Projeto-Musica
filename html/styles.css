@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-image: linear-gradient(to left bottom, #ffeddf,   #9c6e49cc);
+}
+
+.cabecalho_img {
+    height:180px
+}
+
+.cabecalho_menu {
+    display: flex;
+    gap: 38px;
+}
+
+.cabecalho_menu_item {
+    font-family: 'Bebas Neue', cursive ;
+    color: #967644;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.cabecalho_menu_item:hover {
+    transform: scale(1.5);
+    transition: 1s all ;
+    cursor: pointer;
+    color:sienna;
+}
+
+.conteudo {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+
+.conteudo_principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo_principal_img {
+    height: 400px;
+    width: 400px;
+    padding-top: 32px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.conteudo_principal_escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px; 
+    background-color: #FFF2E7;
+    margin-top: 32px;
+}       
+
+.conteudo_principal_escrito_titulo {
+    display: flex;
+    font-family:'Bebas Neue', cursive ;
+    font-weight: 400;
+    font-size: 64px;
+    color: black;
+    padding-left: 20px ;
+
+}
+
+.conteudo_principal_escrito_subtitulo {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 590;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.conteudo_principal_escrito_botao {
+    background-image: linear-gradient(to left bottom, #ffeddf,   #9c6e49cc);
+    width: 150px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: 'Bebas Neue', cursive ;
+    font-weight: 500;
+    font-size: 21px;
+    position:sticky;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.link {
+    color: #000;  
+}
+
+.link:visited {
+    color: #000;
+}
+
+.conteudo_principal_escrito_botao:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.conteudo_secundario_titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    border-top: solid #ffeddf;
+    padding-top: 48px;
+}
+
+.conteudo_secundario_titulo_escrito {
+    width: 280px;
+    height: 50px;
+    font-family:'Bebas Neue', cursive ;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.conteudo_secundario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 32px;
+    margin-top: 32px;
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #ffeddf;
+    padding: 20px;
+}
+
+.auroraimg {
+    height: 300px;
+    width: 300px;
+}
+
+.gracieimg {
+    height: 300px;
+    width: 300px;
+}
+
+.reximg {
+    height: 300px;
+    width: 300px;
+}
+
+.conteudo_secundario_paragrafo_aurora {
+   display: flex;
+   align-items: center;
+   font-family:'Libre Baskerville', serif ;
+   font-weight: 600;
+}
+
+.conteudo_secundario_paragrafo_gracie {
+    display: flex;
+    align-items: center;
+    font-family:'Libre Baskerville', serif ;
+    font-weight: 600;
+ }
+
+ .conteudo_secundario_paragrafo_rex {
+    display: flex;
+    align-items: center;
+    font-family:'Libre Baskerville', serif ;
+    font-weight: 600;
+ }
+
+ .footer {
+    background-image: linear-gradient(to left bottom, #ffeddf,   #9c6e49cc);
+    padding-top: 38px;
+    
+ }
+
+ .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Bebas Neue', cursive ;
+    font-size: 32px;
+    color: #967644;
+    
+    
+ }
+
+ .footer_img {
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+ }
+ 
+ .footer_img:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+ }
